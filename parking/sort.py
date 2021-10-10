@@ -5,8 +5,8 @@ def find_more(joe):
     for i in joe:
         for j in joe:
             if joe[i-1]== joe[j-1]:
-                wtf = int(dic[joe[i-1]])
-                dic[joe[i-1]] = wtf +1
+                w = int(dic[joe[i-1]])
+                dic[joe[i-1]] = w +1
     for item in dic:
         b = list(dic.values())
     joe = len(b)
